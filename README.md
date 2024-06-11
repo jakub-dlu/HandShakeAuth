@@ -2,9 +2,6 @@
 Hand Shake Authentication (HSAuth) in GO-Lang.
 Advanced authentication system using two pairs of keys. The server and the user only exchange public keys and calculate the 'shared secret'. If they are the same, it means that the authentication process was successful. The security phenomenon of this method is that we do not store the password on the server.
 
-# Libraries used in the project
-List of libraries used:
-
 # GIN
 Gin was used for routing and, above all, communication with the client. Gin is a high-performance web framework for Go that is designed to create web applications and APIs with ease.
 
